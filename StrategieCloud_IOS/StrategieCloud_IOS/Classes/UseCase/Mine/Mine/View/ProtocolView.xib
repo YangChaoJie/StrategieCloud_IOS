@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProtocolView" customModule="StrategieCloud_IOS" customModuleProvider="target">
+            <connections>
+                <outlet property="myTextView" destination="a3x-6i-0bn" id="9kj-eJ-ySH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a3x-6i-0bn">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <attributedString key="attributedText">
+                        <fragment content="1.">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="服务确认和接纳">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+1.1 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="您一经同意兵法云用户协议并按照规定的用户注册程序开始注册，即表示您已充分阅读、理解并同意接受本协议的条款和条件，并签署了本协议，本协议即在您和韵屹电子科技之间产生法律效力。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+1.2 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="本协议内容包括本协议全部条款及本平台已经发布的或将来可能发布的各类规则、通告。所有规则、通告为本协议不可分割的一部分，与本协议正文具有同等法律效力。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+1.3 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">您一经注册即视为您同意兵法云在将来任何时刻有权根据公司业务需求、互联网的发展或中华人民共和国有关法律、法规的变化，不时地制定、修改用户协议或平台各类规则，并在本平台上予以公布。经修订后的协议、规则一经本平台公布，立即自动生效。用户的权利以及义务的表述，均以最新的用户协议为准。兵法云特别提醒您，应不时地关注本协议及附属规则的变更。若您在相关协议、规则内容公告变更后继续使用本服务的，表示您已充分阅读、理解并接受修改后的协议、规则；若您不同意相关变更，</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="您可以立即停止使用本服务。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+1.4 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="当您使用兵法云各单项产品或服务时，您的使用行为视为您对该单项服务的服务条款以及兵法云在该单项服务中发出的各类公告及">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="/">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="或规则的同意。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+2.</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="兵法云用户">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+2.1 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="兵法云用户是指符合中华人民共和国法律规定的具有完全民事权利和民事行为能力，能够独立承担民事责任的自然人。在使用兵法云产品或服务前，用户必须先在兵法云平台上进行注册。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+2.2 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="用户承诺以下事项：">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+2.2.1 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="用户必须依兵法云要求提供用户真实、最新、有效及完整的资料。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+2.2.2 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">用户有义务维持并更新资料，确保其为真实、最新、有效及完整。若用户提供任何错误、虚假、过时或不完整的资料，或者兵法云依其独立判断怀疑资料为错误、虚假、过时或不完整，兵法云有权暂停或终止用户的账户，并拒绝用户使用兵法云产品或服务的部份或全部功能。在此情况下，兵法云不承担任何责任，并且用户同意承担因此所产生的直接或间接的任何支出或损失。</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+2.2.3 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="如因用户未及时更新基本资料，导致兵法云服务无法提供或提供时发生任何错误，兵法云不承担任何责任，所有后果应由用户承担。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+3.</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="兵法云服务的内容">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="兵法云平台提供的产品和服务包括但不限于：">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+3.1 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="兵法云服务的具体内容由韵屹电子科技根据实际情况提供，包括但不限于授权用户通过其兵法云帐号创建、订阅和分享内容，韵屹电子科技有权对其提供的服务或产品形态进行升级或其他调整，并将及时更新页面或告知用户。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+3.2 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="韵屹电子科技提供的兵法云服务中可能包括广告，用户同意在使用过程中显示兵法云和第三方供应商、合作伙伴提供的广告。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+3.3 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="韵屹电子科技仅提供与兵法云服务相关的技术服务等，除此之外与相关网络服务有关的设备（如个人电脑、手机、及其他与接入互联网或移动网有关的设备）及所需费用（如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费）均应由用户自行负担。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+4.</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="用户账户和密码">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+4.1 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="您遵照用户注册提示，成功注册之后，即建立了自己的兵法云用户账户。您可以通过用户名和密码登录用户账户，使用兵法云平台产品和服务。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+4.2 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="您可随时更改您的用户名和密码，但任何更改均须经兵法云接受，方为有效。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+4.3 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="您应妥善保管自己的用户名和密码，确保用户账户及密码的机密安全。您不得将用户账户转让、赠与或授权给第三方使用。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+4.4 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">如您发现有他人冒用或盗用您的账户及密码或任何其他未经合法授权之情形时，应立即以有效方式通知兵法云，要求暂停相关服务。同时，您理解兵法云对您的请求采取行动需要合理期限，而在兵法云采取实际行动之前，您应对任何或所有由未经授权人士使用此服务或此服务被用作未经授权用途负责，兵法云对已执行的指令及</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="(">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="或">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=")">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="所导致的您的损失不承担任何责任。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+5.</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="用户保证与承诺">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+5.1 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="保证严格遵守中国现行法律、法规、政府规章及其他应该遵守的规范性文件，不在兵法云从事危害国家安全、洗钱、套现、传销等任何违法活动或者其他有违社会公共利益或公共道德的行为。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+5.2 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="保证合法使用兵法云提供的资讯或服务，遵守所有与兵法云服务有关的协议、规则和程序。未经兵法云事先书面授权，不使用任何非法手段擅自进入兵法云的未公开系统。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+5.3 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="保证不冒用、盗用或以其他未经授权方式使用他人资料进行注册或者冒用、盗用他人名义使用兵法云服务。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+5.4 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="保证通过兵法云所从事的一切行为不侵害任何第三方合法权益；保证自己的行为不会导致兵法云遭受任何第三方提起的索赔、诉讼或行政责任；保证若因自己的行为导致兵法云遭受任何第三方提起的索赔、诉讼或行政责任时自己将无条件先行承担相应责任并使兵法云免责。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+5.5 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">承诺在国家生效法律文书或行政处罚决定确认自己存在违法行为，或者本网站有足够事实依据可以认定自己存在违法或违反本协议的行为，兵法云有权在任何形式的媒体上公布自己的违法、违约行为，并将相关信息计入任何与自己相关的信用资料，以及对自己的用户账户采取暂停或关闭等措施，而无需承担任何责任。</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+6.</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="用户资料的授权使用与隐私权保护">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="保护用户隐私是兵法云的基本政策，非经用户许可，兵法云保证不对外公开或向第三方提供单个用户的注册资料及用户在使用网络服务时存储在兵法云的非公开内容，但下列情况除外：">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+(1) </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="遵守有关法律、法规的规定，包括在国家有关机关查询时，提供用户的注册信息、用户在兵法云平台上发布的信息内容及其发布时间、互联网地址或者域名等；">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+(2) </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="在不透露单个用户隐私资料的前提下，兵法云网有权对整个用户数据库进行分析并对用户数据库进行商业上的利用；">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+(3) </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="根据本协议相关规定或者兵法云认为必要的其他情况下。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+7.</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="责任范围及限制">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+7.1 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="用户理解并同意其使用兵法云提供的产品或服务所存在的风险将完全由其自己承担；因其使用兵法云提供的产品或服务而产生的一切后果也由其自己承担。对于所有的用户注册资料、姓名、身份、发言内容以及其他行为，兵法云拒绝提供任何担保。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+7.2 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">兵法云所提供的任何信息（包括但不限于兵法云自身提供的、兵法云用户发布的、兵法云邀请的嘉宾提供的），兵法云并不能保证其完全实时或完全准确，也不表明兵法云证实其描述或赞同其观点。所有内容仅供参考，不构成投资建议或者其他实际的操作意见，用户据此操作所造成的后果自行负责。</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+7.3 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="兵法云不保证服务一定能满足用户的要求，也不保证服务不会中断，对服务的及时性、安全性、准确性也都不作保证。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+7.4 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="用户理解并同意，对于兵法云因为计算机系统、网络安全、地震、台风、战争、罢工、政府行为、爆发性和流行性传染病或其他重大疫情、非因各方原因造成的火灾、基础电信网络中断等问题，而导致用户资料意外泄漏或服务意外中断，兵法云并不对此负责。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+7.5 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">兵法云需要定期或不定期地进行停机维护，因此类情况而造成的正常服务中断，兵法云将尽可能事先进行通告，同时保留在不事先通知您的情况下随时中断或终止部分或全部网络服务的权利，对于所有服务的中断或终止而造成的任何损失，无需对您或任何第三方承担任何责任。兵法云将尽力避免服务中断或将中断时间限制在最短时间内。</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+8. </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="知识产权的保护">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+8.1 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="兵法云平台上所有内容，包括但不限于平台工作本身及用户或其他任何第三方发布的文字、日志、文章、著作、图片、档案、资讯、资料、平台架构、平台画面的安排、网页设计，均由兵法云或其他权利人依法拥有其知识产权，包括但不限于商标权、专利权、著作权、商业秘密等。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+8.2 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="非经兵法云或其他权利人书面同意，任何人不得擅自使用、修改、复制、公开传播、改变、散布、发行或公开发表兵法云平台程序或内容。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+8.3 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="用户未经兵法云的明确书面同意不许下载（除了页面缓存）或修改平台或其任何部分。用户不得对兵法云平台或其内容进行转售或商业利用；不得对兵法云平台或其内容进行任何衍生利用；不得为其他商业利益而下载或拷贝账户信息或使用任何数据采集、">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Robots">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="或类似的数据收集和摘录工具。未经兵法云的书面许可，严禁对兵法云平台的内容进行系统获取以直接或间接创建或编辑文集、汇编、数据库或人名地址录（无论是否通过">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Robots">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="、">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Spiders">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="、自动仪器或手工操作）。另外，严禁为任何未经本使用条件明确允许的目的而使用兵法云平台上的内容和材料。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+8.4 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="未经兵法云明确书面同意，用户不得用">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="frame">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="或运用">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="frame">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="技巧把韵屹电子科技或其关联公司的商标、标识或其他专有信息（包括图像、文字、网页设计或形式）据为己有。未经韵屹电子科技明确书面同意，用户不得以">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Meta Tags">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="或任何其他">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="&quot;">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="隐藏文本">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="&quot;">
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="方式使用韵屹电子科技或其关联公司的名字和商标。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+8.5 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="尊重知识产权是用户应尽的义务，如有违反，用户应对韵屹电子科技或其关联公司或第三方承担损害赔偿等法律责任。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+9.</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="条款的解释、法律适用及争端解决">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+9.1 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="韵屹电子科技对本协议拥有最终的解释权。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+9.2 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="本协议及其修订的有效性、履行与本协议及其修订效力有关的所有事宜，将受中国法律管辖，任何争议仅适用中">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+9.3 </string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="本协议签订地为中国上海市浦东新区。因本协议所引起的用户与韵屹电子科技或其关联公司的任何纠纷或争议，首先应友好协商解决，协商不成的，用户在此完全同意将纠纷或争议提交韵屹电子科技所在地有管辖权的人民法院诉讼解决。">
+                            <attributes>
+                                <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="a3x-6i-0bn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7PU-bE-lIG"/>
+                <constraint firstAttribute="trailing" secondItem="a3x-6i-0bn" secondAttribute="trailing" id="FrK-xB-UgS"/>
+                <constraint firstAttribute="bottom" secondItem="a3x-6i-0bn" secondAttribute="bottom" id="Iyb-Da-pZL"/>
+                <constraint firstItem="a3x-6i-0bn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OsP-AW-rlN"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

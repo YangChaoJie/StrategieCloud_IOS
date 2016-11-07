@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="EditCellID" selectionStyle="default" indentationWidth="10" id="1ZW-sY-QXy" customClass="EditViewCell" customModule="StrategieCloud_IOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1ZW-sY-QXy" id="J5O-E6-ehE">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uP8-Ki-hM2">
+                        <rect key="frame" x="130" y="11" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="J03-kL-Cmo"/>
+                            <constraint firstAttribute="height" constant="20" id="ZQi-bS-hnw"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="--">
+                                <attributes>
+                                    <color key="NSColor" red="0.58823529411764708" green="0.65098039215686276" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9X-wW-vyX">
+                        <rect key="frame" x="10" y="12" width="71" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="71" id="E3b-K3-o1l"/>
+                            <constraint firstAttribute="height" constant="20" id="Xvx-kH-meQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20784313725490194" green="0.2627450980392157" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6T-ka-pvo">
+                        <rect key="frame" x="240" y="1" width="60" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="MuH-N3-VLu"/>
+                            <constraint firstAttribute="height" constant="40" id="hjU-F2-ezf"/>
+                        </constraints>
+                        <state key="normal" image="img_stockgroup_beTop"/>
+                        <connections>
+                            <action selector="goFirst:" destination="1ZW-sY-QXy" eventType="touchUpInside" id="JSt-fU-OGJ"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uP8-Ki-hM2" firstAttribute="centerX" secondItem="J5O-E6-ehE" secondAttribute="centerX" id="E0e-6Z-4EB"/>
+                    <constraint firstItem="g9X-wW-vyX" firstAttribute="leading" secondItem="J5O-E6-ehE" secondAttribute="leading" constant="10" id="c2a-m7-mnY"/>
+                    <constraint firstItem="I6T-ka-pvo" firstAttribute="centerY" secondItem="J5O-E6-ehE" secondAttribute="centerY" id="fKq-7q-ujb"/>
+                    <constraint firstItem="uP8-Ki-hM2" firstAttribute="centerY" secondItem="J5O-E6-ehE" secondAttribute="centerY" id="mDY-pB-a24"/>
+                    <constraint firstItem="g9X-wW-vyX" firstAttribute="centerY" secondItem="J5O-E6-ehE" secondAttribute="centerY" id="sBU-iK-3oU"/>
+                    <constraint firstAttribute="trailing" secondItem="I6T-ka-pvo" secondAttribute="trailing" constant="20" symbolic="YES" id="t9s-5t-UwO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="goFirst" destination="I6T-ka-pvo" id="fgg-QJ-Nsy"/>
+                <outlet property="stockCode" destination="uP8-Ki-hM2" id="E93-6H-hE1"/>
+                <outlet property="stockName" destination="g9X-wW-vyX" id="2G6-FV-wNA"/>
+            </connections>
+            <point key="canvasLocation" x="261" y="168"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="img_stockgroup_beTop" width="15" height="17"/>
+    </resources>
+</document>

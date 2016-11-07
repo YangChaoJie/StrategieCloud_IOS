@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+target 'StrategieCloud_IOS' do
+pod 'SnapKit', '~> 0.20.0'
+pod 'Alamofire', '~> 3.4.1'
+pod 'MJRefresh'
+pod 'MonkeyKing', '~> 0.9.2'
+pod 'CryptoSwift'
+pod 'Kingfisher', '~> 2.4'
+end

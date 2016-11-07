@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SetterViewCellID" id="KGk-i7-Jjw" customClass="SetterViewCell" customModule="StrategieCloud_IOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热门推送" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhu-gd-Own">
+                        <rect key="frame" x="16" y="11" width="120" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="c90-hM-b5t"/>
+                            <constraint firstAttribute="width" constant="120" id="lij-xN-GHe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N9g-dM-n0a">
+                        <rect key="frame" x="248" y="6" width="51" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="KzJ-mD-EL0"/>
+                            <constraint firstAttribute="width" constant="49" id="uFh-gX-gEA"/>
+                        </constraints>
+                        <color key="onTintColor" red="0.062005218629999997" green="0.4549600473" blue="0.97874366660000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="setSwitchNotice:" destination="KGk-i7-Jjw" eventType="valueChanged" id="Vp4-Zd-fKU"/>
+                        </connections>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dhu-gd-Own" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="LXU-hk-ru1"/>
+                    <constraint firstItem="dhu-gd-Own" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="elV-Wv-mbW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="N9g-dM-n0a" secondAttribute="trailing" constant="15" id="icy-1p-2Zf"/>
+                    <constraint firstItem="N9g-dM-n0a" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="txj-Q1-tKE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mySwitch" destination="N9g-dM-n0a" id="ySb-kZ-hzT"/>
+                <outlet property="nameLabel" destination="dhu-gd-Own" id="qD9-tP-h4h"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--First Time Shared Page-->
+        <scene sceneID="YiI-xW-h0b">
+            <objects>
+                <viewController storyboardIdentifier="firstPageID" id="itK-Md-uwp" customClass="FirstTimeSharedPage" customModule="StrategieCloud_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dQx-5I-vY8"/>
+                        <viewControllerLayoutGuide type="bottom" id="SC7-Ow-kqn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yzc-LG-c9q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ir-N3-JHy" customClass="TimeSharingTopInfoView" customModule="StrategieCloud_IOS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="600" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="GAB-cm-Kal"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9Ir-N3-JHy" secondAttribute="trailing" id="Bdz-TT-Dj7"/>
+                            <constraint firstItem="9Ir-N3-JHy" firstAttribute="top" secondItem="dQx-5I-vY8" secondAttribute="bottom" id="S7x-T5-3ir"/>
+                            <constraint firstItem="9Ir-N3-JHy" firstAttribute="leading" secondItem="Yzc-LG-c9q" secondAttribute="leading" id="l7Y-B8-bge"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="timeShareTopInfoView" destination="9Ir-N3-JHy" id="dO4-4b-glh"/>
+                        <outlet property="topShareHeightConstraint" destination="GAB-cm-Kal" id="HiZ-QB-Ds1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="liB-sf-3oB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="591" y="258"/>
+        </scene>
+    </scenes>
+</document>

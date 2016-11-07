@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfitTableHeaderView" customModule="StrategieCloud_IOS" customModuleProvider="target">
+            <connections>
+                <outlet property="diaBtn" destination="pbi-KT-vGx" id="gpm-vp-c3z"/>
+                <outlet property="view" destination="iN0-l3-epB" id="FW6-9W-VJ8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbi-KT-vGx">
+                    <rect key="frame" x="10" y="8" width="580" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="DRP-F5-jYY"/>
+                    </constraints>
+                    <state key="normal" image="iconfont-zhenduanjianbie" backgroundImage="Rounded-Rectangle-4"/>
+                    <connections>
+                        <action selector="clickedAction:" destination="-1" eventType="touchUpInside" id="Z35-AN-af8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="pbi-KT-vGx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="4EV-km-kN5"/>
+                <constraint firstAttribute="trailing" secondItem="pbi-KT-vGx" secondAttribute="trailing" constant="10" id="Feg-IK-lcs"/>
+                <constraint firstItem="pbi-KT-vGx" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ujl-FT-yCj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Rounded-Rectangle-4" width="361" height="28"/>
+        <image name="iconfont-zhenduanjianbie" width="14" height="14"/>
+    </resources>
+</document>

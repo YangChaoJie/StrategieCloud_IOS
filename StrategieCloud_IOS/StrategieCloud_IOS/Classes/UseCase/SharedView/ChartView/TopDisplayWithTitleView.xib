@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopDisplayWithTitleView" customModule="StrategieCloud_IOS" customModuleProvider="target">
+            <connections>
+                <outlet property="textLabel" destination="gLp-If-EVI" id="HOh-Q0-NQN"/>
+                <outlet property="titleBtn" destination="RIQ-qC-haR" id="OhN-Sp-BSw"/>
+                <outlet property="view" destination="iN0-l3-epB" id="fSn-iN-mTb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="20"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIQ-qC-haR">
+                    <rect key="frame" x="0.0" y="0.0" width="44" height="20"/>
+                    <color key="backgroundColor" red="0.73725490196078436" green="0.73725490196078436" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="pBc-7P-e5U"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="分时量">
+                        <color key="titleColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="－－" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLp-If-EVI">
+                    <rect key="frame" x="52" y="0.0" width="24" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="acc-Me-vlp">
+                    <rect key="frame" x="84" y="0.0" width="508" height="20"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="gLp-If-EVI" secondAttribute="bottom" id="1Q4-2z-1Uh"/>
+                <constraint firstItem="acc-Me-vlp" firstAttribute="leading" secondItem="gLp-If-EVI" secondAttribute="trailing" constant="8" id="55r-lT-Ok2"/>
+                <constraint firstItem="gLp-If-EVI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BCo-w0-HQ3"/>
+                <constraint firstItem="acc-Me-vlp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Eex-yR-VHa"/>
+                <constraint firstAttribute="trailing" secondItem="acc-Me-vlp" secondAttribute="trailing" constant="8" id="Uq6-Ch-LpF"/>
+                <constraint firstItem="RIQ-qC-haR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="afX-Yy-3Mu"/>
+                <constraint firstAttribute="bottom" secondItem="acc-Me-vlp" secondAttribute="bottom" id="gyS-wt-PeM"/>
+                <constraint firstItem="RIQ-qC-haR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hJr-kC-Wfe"/>
+                <constraint firstAttribute="bottom" secondItem="RIQ-qC-haR" secondAttribute="bottom" id="nFb-u5-al8"/>
+                <constraint firstItem="gLp-If-EVI" firstAttribute="leading" secondItem="RIQ-qC-haR" secondAttribute="trailing" constant="8" id="uiJ-u3-RYS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

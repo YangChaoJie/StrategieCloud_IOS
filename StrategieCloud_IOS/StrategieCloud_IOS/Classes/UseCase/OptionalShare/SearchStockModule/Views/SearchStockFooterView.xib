@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchStockFooterView" customModule="StrategieCloud_IOS" customModuleProvider="target">
+            <connections>
+                <outlet property="historyBtn" destination="p2O-LZ-0J3" id="6HX-Cv-FuV"/>
+                <outlet property="view" destination="iN0-l3-epB" id="cOi-qC-d14"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2O-LZ-0J3">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="清空历史记录">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="disabled" title="你还没有搜索历史"/>
+                    <connections>
+                        <action selector="historyBtnClick" destination="-1" eventType="touchUpInside" id="otW-sb-K0X"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="p2O-LZ-0J3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="e5d-hd-Shc"/>
+                <constraint firstItem="p2O-LZ-0J3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mDq-sq-8Yo"/>
+                <constraint firstAttribute="trailing" secondItem="p2O-LZ-0J3" secondAttribute="trailing" id="qtE-xs-nDe"/>
+                <constraint firstAttribute="bottom" secondItem="p2O-LZ-0J3" secondAttribute="bottom" id="s3Q-v9-xTm"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
